@@ -177,7 +177,7 @@ http://192.168.1.1:7088/rtp/239.3.1.57:8152
 http://192.168.1.1:7088/rtp/239.3.1.125:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV",睛彩篮球[高清]
 http://192.168.1.1:7088/rtp/239.3.1.126:8001
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV",睛彩羽毛球[高清]
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV",睛彩青少[高清]
 http://192.168.1.1:7088/rtp/239.3.1.127:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV",睛彩广场舞[高清]
 http://192.168.1.1:7088/rtp/239.3.1.128:8001
