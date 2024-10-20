@@ -391,8 +391,41 @@ http://192.168.1.1:7088/rtp/239.3.1.89:4120
 http://192.168.1.1:7088/rtp/239.3.1.94:4120
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",爱生活
 http://192.168.1.1:7088/rtp/239.3.1.86:4120
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",粤荟萃
+http://192.168.1.1:7088/rtp/239.3.1.162:8001
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",空中课堂-初三
+http://192.168.1.1:7088/rtp/239.3.1.176:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",空中课堂-高三
+http://192.168.1.1:7088/rtp/239.3.1.177:8001
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",直播室101
+http://192.168.1.1:7088/rtp/239.3.1.166:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",直播室102
+http://192.168.1.1:7088/rtp/239.3.1.167:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",直播室103
+http://192.168.1.1:7088/rtp/239.3.1.168:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",直播室104
+http://192.168.1.1:7088/rtp/239.3.1.169:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",直播室106
+http://192.168.1.1:7088/rtp/239.3.1.170:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",直播室107
+http://192.168.1.1:7088/rtp/239.3.1.171:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",VBR测试-1
+http://192.168.1.1:7088/rtp/239.3.1.139:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",VBR测试-2
+http://192.168.1.1:7088/rtp/239.3.1.140:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",4K测试
+http://192.168.1.1:7088/rtp/239.3.1.104:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",高清测试
+http://192.168.1.1:7088/rtp/239.3.1.103:8001
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",总平台测试1
+http://192.168.1.1:7088/rtp/239.3.1.247:2000
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="其它",总平台测试2
+http://192.168.1.1:7088/rtp/239.3.1.248:2000
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",聚鲨环球
+http://192.168.1.1:7088/rtp/239.3.1.160:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",家有购物
 http://192.168.1.1:7088/rtp/239.3.1.186:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="北京IPTV",延庆电视台
