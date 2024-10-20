@@ -110,13 +110,15 @@ http://192.168.1.1:7088/rtp/239.3.1.245:2000
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="[高清]央视;[高清]北京IPTV;4K",CCTV-16奥林匹克 4K超清[4K]
 http://192.168.11.1:8888/rtp/239.3.1.183:8001
 #EXTINF:-1 tvg-id="1877" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="[高清]北京;[高清]北京IPTV;4K",BRTV体育休闲4K HDR[4K]
-http://192.168.11.1:8888/rtp/239.3.1.120:8000
+http://192.168.1.1:8888/rtp/239.3.1.120:8000
 #EXTINF:-1 tvg-id="1877" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="[高清]北京;[高清]北京IPTV;4K",BRTV体育休闲4K SDR[4K]
-http://192.168.11.1:8888/rtp/239.3.1.121:8000
-#EXTINF:-1 tvg-id="7244" tvg-name="爱上4K" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/aishang4k.png" group-title="[高清]北京IPTV;4K",爱上4K[4K]
-http://192.168.1.1:7088/rtp/239.3.1.236:2000
+http://192.168.1.1:8888/rtp/239.3.1.121:8000
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV;4K",北京IPTV 4K超清[4K]
 http://192.168.1.1:7088/rtp/239.3.1.249:8001
+#EXTINF:-1 tvg-id="7244" tvg-name="爱上4K" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/aishang4k.png" group-title="[高清]北京IPTV;4K",爱上4K[4K]
+http://192.168.1.1:7088/rtp/239.3.1.236:2000
+#EXTINF:-1 group-title="[高清]北京IPTV",体育赛事高清
+http://192.168.1.1:8888/rtp/239.3.1.157:8176
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV",北京IPTV淘精彩[高清]
 http://192.168.1.1:7088/rtp/239.3.1.178:8001
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="[高清]北京IPTV",北京IPTV淘娱乐[高清]
