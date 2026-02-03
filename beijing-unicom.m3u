@@ -39,25 +39,25 @@ http://192.168.1.1:7088/rtp/239.3.1.153:8136
 http://192.168.1.1:7088/rtp/239.3.1.184:8001
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视", CCTV17-高清
 http://192.168.1.1:7088/rtp/239.3.1.151:8144
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV北京卫视高清
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视", 北京卫视高清
 http://192.168.1.1:7088/rtp/239.3.1.241:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV文艺高清
+#EXTINF:-1 tvg-id="1174" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="地方", BTV文艺高清
 http://192.168.1.1:7088/rtp/239.3.1.242:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV纪实科教高清
+#EXTINF:-1 tvg-id="1173" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="地方", BRTV纪实科教高清
 http://192.168.1.1:7088/rtp/239.3.1.115:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV影视高清
+#EXTINF:-1 tvg-id="1176" tvg-name="BTV影视" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV影视.png" group-title="地方", BTV影视高清
 http://192.168.1.1:7088/rtp/239.3.1.158:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV财经高清
+#EXTINF:-1 tvg-id="1177" tvg-name="BTV财经" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png" group-title="地方", BTV财经高清
 http://192.168.1.1:7088/rtp/239.3.1.116:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV体育休闲高清
+#EXTINF:-1 tvg-id="1178" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="地方", BTV体育休闲高清
 http://192.168.1.1:7088/rtp/239.3.1.243:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV生活高清
+#EXTINF:-1 tvg-id="1179" tvg-name="BTV生活" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png" group-title="地方", BTV生活高清
 http://192.168.1.1:7088/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV卡酷少儿高清
+#EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="数字付费", 卡酷动画高清
 http://192.168.1.1:7088/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV新闻高清
+#EXTINF:-1 tvg-id="1181" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="地方", BTV新闻高清
 http://192.168.1.1:7088/rtp/239.3.1.159:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV卡酷少儿
+#EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="数字付费", 卡酷动画
 http://192.168.1.1:7088/rtp/239.3.1.234:8000
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视", 湖南卫视高清
 http://192.168.1.1:7088/rtp/239.3.1.132:8012
@@ -113,9 +113,9 @@ http://192.168.1.1:7088/rtp/239.3.1.237:4120
 http://192.168.1.1:7088/rtp/239.3.1.183:8001
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视", CCTV4K超高清
 http://192.168.1.1:7088/rtp/239.3.1.245:2000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV体育休闲4K HDR
+#EXTINF:-1 tvg-id="1178" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="地方", BTV体育休闲4K HDR
 http://192.168.1.1:7088/rtp/239.3.1.120:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV体育休闲4K SDR
+#EXTINF:-1 tvg-id="1178" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="地方", BTV体育休闲4K SDR
 http://192.168.1.1:7088/rtp/239.3.1.121:8000
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视", 湖南卫视4K超高清
 http://192.168.1.1:7088/rtp/239.3.1.112:3002
@@ -137,9 +137,9 @@ http://192.168.1.1:7088/rtp/239.3.1.144:3005
 http://192.168.1.1:7088/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="未分类", 爱上4K
 http://192.168.1.1:7088/rtp/239.3.1.236:2000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV北京卫视超高清SDR
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视", 北京卫视超高清SDR
 http://192.168.1.1:7088/rtp/239.3.1.22:8001
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV北京卫视超高清HDR
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视", 北京卫视超高清HDR
 http://192.168.1.1:7088/rtp/239.3.1.118:8001
 #EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="未分类", 体育赛事高清
 http://192.168.1.1:7088/rtp/239.3.1.157:8176
@@ -199,21 +199,21 @@ http://192.168.1.1:7088/rtp/239.3.1.191:8001
 http://192.168.1.1:7088/rtp/239.3.1.185:8001
 #EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="未分类", 聚鲨环球精选
 http://192.168.1.1:7088/rtp/239.3.1.179:8001
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV北京卫视
+#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视", 北京卫视
 http://192.168.1.1:7088/rtp/239.3.1.225:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV文艺
+#EXTINF:-1 tvg-id="1174" tvg-name="BTV文艺" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV文艺.png" group-title="地方", BTV文艺
 http://192.168.1.1:7088/rtp/239.3.1.226:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV纪实科教
+#EXTINF:-1 tvg-id="1173" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="地方", BRTV纪实科教
 http://192.168.1.1:7088/rtp/239.3.1.227:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV影视
+#EXTINF:-1 tvg-id="1176" tvg-name="BTV影视" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV影视.png" group-title="地方", BTV影视
 http://192.168.1.1:7088/rtp/239.3.1.228:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV财经
+#EXTINF:-1 tvg-id="1177" tvg-name="BTV财经" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV财经.png" group-title="地方", BTV财经
 http://192.168.1.1:7088/rtp/239.3.1.229:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV体育休闲
+#EXTINF:-1 tvg-id="1178" tvg-name="BTV体育" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV体育.png" group-title="地方", BTV体育休闲
 http://192.168.1.1:7088/rtp/239.3.1.230:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV生活
+#EXTINF:-1 tvg-id="1179" tvg-name="BTV生活" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV生活.png" group-title="地方", BTV生活
 http://192.168.1.1:7088/rtp/239.3.1.231:8000
-#EXTINF:-1 tvg-id="266" tvg-name="今日俄罗斯" tvg-logo="http://pix1.tvzhe.com/images/logo/channel/RUSSIA-TODAY/RUSSIA-TODAY_140x140.png" group-title="海外", BRTV新闻
+#EXTINF:-1 tvg-id="1181" tvg-name="BTV新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/BTV新闻.png" group-title="地方", BTV新闻
 http://192.168.1.1:7088/rtp/239.3.1.233:8000
 #EXTINF:-1 tvg-id="" tvg-name="noepg" tvg-logo="" group-title="未分类", BTV国际频道
 http://192.168.1.1:7088/rtp/239.3.1.235:8000
