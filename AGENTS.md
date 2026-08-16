@@ -29,6 +29,7 @@ python3 scripts/merge_tianjin.py             # 生成 beijing-tianjin.m3u = 北�
 
 - 首行 `#EXTM3U x-tvg-url="...e1.xml.gz"`。
 - 每个频道两行：`#EXTINF:-1 tvg-id="…" tvg-name="…" tvg-logo="…" group-title="…",名称` + `http://192.168.1.1:7088/rtp/<组播ip>:<port>`。频道名不带频道号、不带 `[高清]/[标清]/[4K]` 标签（清晰度由 group-title 前缀表达）；4K 版保留「4K」字样、北京卫视保留 SDR/HDR 以区分画质。
+- 频道名中字母/数字标识与中文之间补空格（`CCTV-1 综合`、`BRTV 文艺`、`CHC 动作电影`、`IPTV 光影`、`湖南卫视 4K`）；期数序号名（`中国教育1台`、`滨海1`）与专名（`CCTV5+`、`IPTV5＋高清`）不拆。
 - group-title 体系：`[4K]`/`[高清]`/`[标清]` × `央视`/`北京`/`卫视`/`少儿`/`教育`/`数字付费`/`购物`/`IPTV专区`，另加 `[测试]`。
 
 ## 维护约定

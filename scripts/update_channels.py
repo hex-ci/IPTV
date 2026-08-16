@@ -238,12 +238,22 @@ for a in ["239.3.1.139:8001", "239.3.1.140:8001", "239.3.1.103:8001",
     M[a] = ("[测试]", "", "", "")
 
 
+def add_spaces(name):
+    # 字母/数字标识与中文、中文与画质词(4K/HDR/SDR)之间补空格。只处理明确边界，
+    # 避免拆散「中国教育1台/滨海1」这类序号名与 CCTV5+/IPTV5＋/CCTV 4K 这类专名。幂等。
+    name = re.sub(r'(CCTV-\d+\+?)(?=[\u4e00-\u9fff])', r'\1 ', name)
+    name = re.sub(r'^(BRTV|CHC|IPTV|CGTN)(?=[\u4e00-\u9fff])', r'\1 ', name)
+    name = re.sub(r'(?<=[\u4e00-\u9fff])(?=4K|HDR|SDR)', ' ', name)
+    name = re.sub(r'(北京IPTV)(?=[\u4e00-\u9fff])', r'\1 ', name)
+    return name
+
+
 def clean_name(name):
     """频道名去 [编号][清晰度标签]，并精简内部冗余清晰度词。幂等。"""
     core = re.sub(r'\[[^\]]*\]', '', name).strip()
     core = core.replace("4K超高清", "4K").replace("4K超清", "4K")
     core = re.sub(r'(卫视)高清$', r'\1', core)  # 河南卫视高清 -> 河南卫视
-    return core
+    return add_spaces(core)
 
 
 # 频道号（官方节目单顺序，仅用于排序，不写入文件名）

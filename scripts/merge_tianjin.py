@@ -103,6 +103,15 @@ def parse_m3u(text):
     return out
 
 
+def add_spaces(name):
+    # 字母/数字标识与中文之间补空格（与 update_channels.py 一致）。幂等。
+    name = re.sub(r'(CCTV-\d+\+?)(?=[\u4e00-\u9fff])', r'\1 ', name)
+    name = re.sub(r'^(BRTV|CHC|IPTV|CGTN)(?=[\u4e00-\u9fff])', r'\1 ', name)
+    name = re.sub(r'(?<=[\u4e00-\u9fff])(?=4K|HDR|SDR)', ' ', name)
+    name = re.sub(r'(北京IPTV)(?=[\u4e00-\u9fff])', r'\1 ', name)
+    return name
+
+
 def main():
     bj_text = open(BJ, encoding="utf-8").read().rstrip("\n")
     bj_count = len(re.findall(r'^#EXTINF', bj_text, re.M))
@@ -119,6 +128,7 @@ def main():
         tid, group = TJ_EXTRA[a]
         name, tvg_name, logo, url = tj[a]
         name = re.sub(r'\s+SD$', '', name)  # 去掉天津的标清后缀，与北京去清晰度标签一致
+        name = add_spaces(name)
         block.append(f'#EXTINF:-1 tvg-id="{tid}" tvg-name="{tvg_name}" tvg-logo="{logo}" group-title="{group}",{name}')
         block.append(url)
 
