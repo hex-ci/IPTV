@@ -4,9 +4,11 @@
 
 ## 文件结构
 
-- `beijing-unicom.m3u` — 北京联通频道列表，唯一有维护脚本的列表
+- `beijing-unicom.m3u` — 北京联通频道列表，有维护脚本
 - `tianjin-unicom-1.m3u` / `tianjin-unicom-2.m3u` — 天津联通，手动维护
+- `beijing-tianjin.m3u` — 北京+天津合并列表（`merge_tianjin.py` 生成，勿手改）
 - `scripts/update_channels.py` — 北京联通的维护脚本（对比 + 重新生成）
+- `scripts/merge_tianjin.py` — 生成北京+天津合并列表
 - `README.md` — 各列表的 raw 地址（供播放器订阅）
 
 ## 维护命令（北京联通）
@@ -14,6 +16,7 @@
 ```bash
 python3 scripts/update_channels.py           # diff：拉 islc+gist 对比本地，打印新增/删除
 python3 scripts/update_channels.py --apply   # 用脚本内置映射表重新分组+排序+补 EPG/台标（幂等）
+python3 scripts/merge_tianjin.py             # 生成 beijing-tianjin.m3u = 北京 + 天津独有频道（幂等）
 ```
 
 维护信息来源（URL 在脚本顶部 CONFIG 段）：
@@ -25,7 +28,7 @@ python3 scripts/update_channels.py --apply   # 用脚本内置映射表重新分
 ## m3u 格式约定
 
 - 首行 `#EXTM3U x-tvg-url="...e1.xml.gz"`。
-- 每个频道两行：`#EXTINF:-1 tvg-id="…" tvg-name="…" tvg-logo="…" group-title="…",名称[频道号][清晰度]` + `http://192.168.1.1:7088/rtp/<组播ip>:<port>`。
+- 每个频道两行：`#EXTINF:-1 tvg-id="…" tvg-name="…" tvg-logo="…" group-title="…",名称` + `http://192.168.1.1:7088/rtp/<组播ip>:<port>`。频道名不带频道号、不带 `[高清]/[标清]/[4K]` 标签（清晰度由 group-title 前缀表达）；4K 版保留「4K」字样、北京卫视保留 SDR/HDR 以区分画质。
 - group-title 体系：`[4K]`/`[高清]`/`[标清]` × `央视`/`北京`/`卫视`/`少儿`/`教育`/`数字付费`/`购物`/`IPTV专区`，另加 `[测试]`。
 
 ## 维护约定

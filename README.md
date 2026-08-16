@@ -4,6 +4,10 @@
 
 https://raw.githubusercontent.com/hex-ci/IPTV/main/beijing-unicom.m3u
 
+## 北京 + 天津合并
+
+https://raw.githubusercontent.com/hex-ci/IPTV/main/beijing-tianjin.m3u
+
 ## 天津联通
 
 ### 1 号
