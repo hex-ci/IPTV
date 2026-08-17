@@ -3,7 +3,7 @@
 """合并北京 + 天津联通频道列表。
 
 读 beijing-unicom.m3u（原样保留）+ tianjin-unicom-1.m3u（只取北京没有的频道），
-生成 beijing-tianjin.m3u。天津频道地址用天津 udpxy 前缀（192.168.68.8:5140，
+生成 beijing-tianjin.m3u。天津频道地址用天津 rtp2httpd 前缀（192.168.68.8:5140，
 已在天津文件里）。
 
 用法:

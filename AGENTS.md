@@ -1,6 +1,6 @@
 # IPTV 节目列表
 
-自用 IPTV 组播节目列表（公开仓库 `hex-ci/IPTV`）。三个 m3u 文件直接用于播放器/udpxy 拉流，北京联通列表有维护脚本，天津联通手动维护。无构建、无测试、无第三方依赖（脚本仅用 Python 标准库）。
+自用 IPTV 组播节目列表（公开仓库 `hex-ci/IPTV`）。三个 m3u 文件直接用于播放器/rtp2httpd 拉流，北京联通列表有维护脚本，天津联通手动维护。无构建、无测试、无第三方依赖（脚本仅用 Python 标准库）。
 
 ## 文件结构
 
@@ -28,7 +28,7 @@ python3 scripts/merge_tianjin.py             # 生成 beijing-tianjin.m3u = 北�
 ## m3u 格式约定
 
 - 首行 `#EXTM3U x-tvg-url="...e1.xml.gz"`。
-- 每个频道两行：`#EXTINF:-1 tvg-id="…" tvg-name="…" tvg-logo="…" group-title="…",名称` + `http://192.168.1.1:7088/rtp/<组播ip>:<port>`。频道名不带频道号、不带 `[高清]/[标清]/[4K]` 标签（清晰度由 group-title 前缀表达）；4K 版保留「4K」字样、北京卫视保留 SDR/HDR 以区分画质。
+- 每个频道两行：`#EXTINF:-1 tvg-id="…" tvg-name="…" tvg-logo="…" group-title="…",名称` + `http://192.168.1.1:5140/rtp/<组播ip>:<port>`。频道名不带频道号、不带 `[高清]/[标清]/[4K]` 标签（清晰度由 group-title 前缀表达）；4K 版保留「4K」字样、北京卫视保留 SDR/HDR 以区分画质。
 - 频道名中字母/数字标识与中文之间补空格（`CCTV-1 综合`、`BRTV 文艺`、`CHC 动作电影`、`IPTV 光影`、`湖南卫视 4K`）；期数序号名（`中国教育1台`、`滨海1`）与专名（`CCTV5+`、`IPTV5＋高清`）不拆。
 - group-title 体系：`[4K]`/`[高清]`/`[标清]` × `央视`/`北京`/`卫视`/`少儿`/`教育`/`数字付费`/`购物`/`IPTV专区`，另加 `[测试]`。
 
@@ -42,7 +42,7 @@ python3 scripts/merge_tianjin.py             # 生成 beijing-tianjin.m3u = 北�
 
 ## Pitfalls
 
-- `192.168.1.1:7088` 是个人 udpxy 内网前缀，脚本从现有文件继承、不硬编码；换环境时从文件改。
+- `192.168.1.1:5140` 是个人 rtp2httpd 内网前缀，脚本从现有文件继承、不硬编码；换环境时从文件改。
 - `scripts/update_channels.py --apply` 会整体重写 m3u（重排序），改完核对 `git diff` 是否只动了该动的。
 - 脚本 diff 模式只看 islc+gist 两个文件、不含评论，所以「新增/删除」列表需结合 gist 评论解读（例：广东/深圳 4K 是 203/202，islc 的 27/28 是旧地址别收录）。
 - CCTV5+ 频道号是 18，但排序需紧跟 CCTV5（脚本 sort_key 里已特判，别删）。
